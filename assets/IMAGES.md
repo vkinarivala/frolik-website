@@ -110,16 +110,12 @@ Featured projects on each landing **reuse** the relevant `work-*.webp`. Add
 Service cards are **motif colour-chips, not photos** (skill) — no photography needed.
 - `og-services.webp` — social share.
 
-## Service detail pages (`services/{slug}.html`, Phase 2)
-| File | Slot |
-|---|---|
-| `service-residential-interiors-hero.webp` | Hero |
-| `service-kids-spaces-hero.webp` | Hero (may reuse `kids-hero.webp`) |
-| `service-commercial-studio-interiors-hero.webp` | Hero |
-| `service-design-consultation-hero.webp` | Hero |
-| `service-turnkey-execution-hero.webp` | Hero |
-| `service-styling-decor-hero.webp` | Hero |
-"Related work" on each **reuses** `work-*.webp`. Add `og-{slug}.webp` per page.
+## Service detail pages (`services/{slug}.html`) — ✅ built
+Heroes are **text + motif-sticker led** (no hero photo well), so the
+`service-{slug}-hero.webp` files are **not referenced by the pages** — don't produce
+them unless a hero-photo layout is added later. "Related work" on each **reuses**
+`work-*.webp`. Each page only needs its social image:
+- `og-residential-interiors.webp` · `og-kids-spaces.webp`*(service — distinct from the hub's `og-kids-spaces.webp`; the service page currently points at the same slug, reconcile if you want separate art)* · `og-commercial-studio-interiors.webp` · `og-design-consultation.webp` · `og-turnkey-execution.webp` · `og-styling-decor.webp` — 1200×630.
 
 ---
 
