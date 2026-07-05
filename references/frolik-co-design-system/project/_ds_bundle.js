@@ -255,7 +255,7 @@ Object.assign(__ds_scope, { Badge });
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /**
- * Eyebrow / section label — the wide-tracked uppercase kicker used above
+ * Eyebrow / section label - the wide-tracked uppercase kicker used above
  * headings throughout the brand, with a short colored rule.
  */
 function SectionLabel({
@@ -303,7 +303,7 @@ Object.assign(__ds_scope, { SectionLabel });
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /**
- * Sticker — a decorative Memphis shape motif pulled straight from the logo
+ * Sticker - a decorative Memphis shape motif pulled straight from the logo
  * (striped circle, coral slash, split circle, plus). Purely decorative;
  * scatter behind or beside content for the brand's playful energy.
  */
@@ -615,7 +615,7 @@ Object.assign(__ds_scope, { Card });
 try { (() => {
 function _extends() { return _extends = Object.assign ? Object.assign.bind() : function (n) { for (var e = 1; e < arguments.length; e++) { var t = arguments[e]; for (var r in t) ({}).hasOwnProperty.call(t, r) && (n[r] = t[r]); } return n; }, _extends.apply(null, arguments); }
 /**
- * Portfolio project card — image on top, meta below. Lifts on hover.
+ * Portfolio project card - image on top, meta below. Lifts on hover.
  * Pass an <img>/element as `media`, or a solid `mediaColor` placeholder.
  */
 function ProjectCard({
@@ -1825,7 +1825,7 @@ function Studio({
     Button
   } = window.FrolikCoDesignSystem_d61cd3;
   const I = window.FKIcons;
-  const values = [['Play first', 'Good design should make you smile before it makes you think.'], ['Made to last', 'Warm materials, honest craft, and rooms that age gracefully.'], ['Your story', 'We design around your life — not a magazine spread.']];
+  const values = [['Play first', 'Good design should make you smile before it makes you think.'], ['Made to last', 'Warm materials, honest craft, and rooms that age gracefully.'], ['Your story', 'We design around your life - not a magazine spread.']];
   return /*#__PURE__*/React.createElement("div", {
     style: {
       maxWidth: 'var(--container-max)',
@@ -2214,12 +2214,12 @@ Object.assign(window, {
 
 // ui_kits/website/data.js
 try { (() => {
-// Frolik+Co marketing site — sample content (fictional but on-brand).
+// Frolik+Co marketing site - sample content (fictional but on-brand).
 window.FROLIK_DATA = {
   services: [{
     icon: 'home',
     title: 'Residential',
-    blurb: 'Homes that hold your story — from a single playroom to a full renovation.'
+    blurb: 'Homes that hold your story - from a single playroom to a full renovation.'
   }, {
     icon: 'briefcase',
     title: 'Commercial',
@@ -2231,7 +2231,7 @@ window.FROLIK_DATA = {
   }, {
     icon: 'blocks',
     title: "Kids' Spaces",
-    blurb: 'Our first love — rooms that grow with the little ones who live in them.'
+    blurb: 'Our first love - rooms that grow with the little ones who live in them.'
   }],
   projects: [{
     title: 'The Playhouse Loft',

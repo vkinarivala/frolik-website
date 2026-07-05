@@ -1,9 +1,9 @@
-# Frolik + Co — Page wireframes
+# Frolik + Co - Page wireframes
 
 Section-by-section wireframes for every page in `sitemap.md`, written to match the
 shipped home page (`index.html`), the Memphis design system
 (`references/frolik-co-design-system/`) and real copy from
-`references/frolik+co-research.md`. Each doc is the plan a build task follows —
+`references/frolik+co-research.md`. Each doc is the plan a build task follows -
 section order, real copy sources, components reused, motion map, SEO head, and
 content-still-needed.
 
@@ -17,7 +17,7 @@ scattered with restraint, one shared rAF loop for scroll motion, and a full
 
 | # | Page | File → wireframe | Sitemap status |
 |---|---|---|---|
-| — | Home | `../homepage-wireframe.md` (already shipped as `index.html`) | 🟢 MVP |
+| - | Home | `../homepage-wireframe.md` (already shipped as `index.html`) | 🟢 MVP |
 | 1 | Work / Portfolio hub (+ filtered category views) | `work-wireframe.md` → `work.html` | 🟢 MVP |
 | 2 | Project detail **template** (×6 at launch) | `work-project-wireframe.md` → `work/{slug}.html` | 🟢 MVP |
 | 3 | Kids Spaces hub | `kids-spaces-wireframe.md` → `kids-spaces.html` | 🟢 MVP |
@@ -31,7 +31,7 @@ scattered with restraint, one shared rAF loop for scroll motion, and a full
 | 11 | Contact / Start a project | `contact-wireframe.md` → `contact.html` | 🟢 MVP |
 
 "Template" wireframes cover every SEO landing / project / article listed in the
-sitemap — one structure, unique copy per instance. Filtered `/work/{category}`
+sitemap - one structure, unique copy per instance. Filtered `/work/{category}`
 views are the same page as the Work hub with a filter pre-applied (see doc 1).
 
 ## Shared skeleton every page uses (from the skill)
@@ -65,7 +65,7 @@ writing new animation code:
 Every photo slot is an `<img class="media-img" data-media>` over a flat-colour + motif
 well; `scripts/main.js` hides the image until its file exists, so pages ship with
 placeholders and photos appear the moment you drop the WebP into `assets/`.
-**`assets/IMAGES.md` is the master manifest** — canonical filenames, which photos are
+**`assets/IMAGES.md` is the master manifest** - canonical filenames, which photos are
 reused where, and the new placeholder slugs per page. Each wireframe's *Image assets*
 section lists exactly which files that page uses (reused vs new). The six launch
 projects share one `work-{project}.webp` each across Home, Work, Kids Spaces and their

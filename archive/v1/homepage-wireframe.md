@@ -1,10 +1,10 @@
-# Frolik + Co — Home Page Wireframe (`/`)
+# Frolik + Co - Home Page Wireframe (`/`)
 
 **Goal:** In ~10 seconds, tell visitors what the studio is and push them to view work or inquire.
 **Primary CTA:** *Start a Project* → `/contact` inquiry form (repeated at top, mid, and bottom).
 **Secondary CTA:** *View Work* → `/work`.
 **Utility:** click-to-call `tel:` + WhatsApp `wa.me` (real details available).
-**Not included:** press/features strip — no coverage yet (add later as a credibility band).
+**Not included:** press/features strip - no coverage yet (add later as a credibility band).
 
 Legend: `▓` = image/photo · `e` = editorial text · `[ Button ]` = CTA · `( pill )` = filter/tag
 
@@ -18,7 +18,7 @@ Legend: `▓` = image/photo · `e` = editorial text · `[ Button ]` = CTA · `( 
 │                                                          [ Start a Project ]│    logo left, CTA right
 ├──────────────────────────────────────────────────────────────────────────┤
 │                                                                            │
-│  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  HERO — large soft editorial project image ▓▓▓▓▓▓ │  ◀ SECTION 1: HERO
+│  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  HERO - large soft editorial project image ▓▓▓▓▓▓ │  ◀ SECTION 1: HERO
 │  ▓▓▓                                                                  ▓▓▓ │    full-bleed, ~85vh
 │  ▓▓▓   H1  Interiors for homes, kids' spaces, and creative lives.     ▓▓▓ │    H1 overlaid (or split)
 │  ▓▓▓   sub  Ahmedabad-based studio creating warm, functional,         ▓▓▓ │    "+" motif accent
@@ -56,7 +56,7 @@ Legend: `▓` = image/photo · `e` = editorial text · `[ Button ]` = CTA · `( 
 │   │  with big imaginations.            │   ▓▓  kids room photo  ▓▓ │   │
 │   │                                    │   ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ │   │    3 short proof lines:
 │   │  • Rooms that grow with the child  │                              │   │    grow-with-child / play+
-│   │  • Play, study, sleep, storage —   │                              │   │    study+sleep+storage /
+│   │  • Play, study, sleep, storage -   │                              │   │    study+sleep+storage /
 │   │    planned as one world            │                              │   │    soft palettes + safe
 │   │  • Soft palettes, safe details,    │                              │   │    detail
 │   │    custom furniture, playful forms │                              │   │
@@ -91,14 +91,14 @@ Legend: `▓` = image/photo · `e` = editorial text · `[ Button ]` = CTA · `( 
 │   │                                                                    │   │    single strong quote
 │   │   " A short client quote about how the space feels and works. "    │   │    (1 to start; can rotate
 │   │                                                                    │   │     into a slider later)
-│   │     — Client name, project / area, Ahmedabad                       │   │
+│   │     - Client name, project / area, Ahmedabad                       │   │
 │   └───────────────────────────────────────────────────────────────────┘   │
 │                                                                            │
 ├──────────────────────────────────────────────────────────────────────────┤
-│  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  FINAL CTA — soft image or coral bg  ▓▓▓▓▓▓▓▓▓▓ │  ◀ SECTION 8: FINAL CTA
+│  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓  FINAL CTA - soft image or coral bg  ▓▓▓▓▓▓▓▓▓▓ │  ◀ SECTION 8: FINAL CTA
 │  ▓▓▓                                                                  ▓▓▓ │    the conversion moment
 │  ▓▓▓   Have a space in mind?                                          ▓▓▓ │
-│  ▓▓▓   Tell us what you're planning — a home, a child's room,         ▓▓▓ │
+│  ▓▓▓   Tell us what you're planning - a home, a child's room,         ▓▓▓ │
 │  ▓▓▓   a playroom, a studio, or something new.                        ▓▓▓ │
 │  ▓▓▓   [ Start a Project ]     or  WhatsApp ›   Call ›                ▓▓▓ │  → /contact + wa.me + tel:
 │  ▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓ │
@@ -112,7 +112,7 @@ Legend: `▓` = image/photo · `e` = editorial text · `[ Button ]` = CTA · `( 
 
 ---
 
-## Mobile wireframe (≤640px) — stack order
+## Mobile wireframe (≤640px) - stack order
 
 ```
 ┌───────────────────────┐
@@ -163,30 +163,30 @@ Sticky ──▶ │ ▸ WhatsApp  │  floating mobile action (optional)
 
 | # | Section | Purpose | Key content | CTA / link |
 |---|---|---|---|---|
-| — | Header | Orient + always-available convert | Logo, 5 nav items, Start-a-Project button | `/contact` |
+| - | Header | Orient + always-available convert | Logo, 5 nav items, Start-a-Project button | `/contact` |
 | 1 | Hero | 10-second understanding | H1 + support line + dual CTA over editorial image | `/work`, `/contact` |
 | 2 | Studio intro | Context without limiting brand | 3–4 lines, Ahmedabad named | `/about` |
 | 3 | Featured work | Let the work sell | 6 curated cards; **row 1 kids**, row 2 home/studio/commercial; title · type · location | `/work` + project pages |
 | 4 | Kids signature | The differentiator | Headline + 3 proof lines + photo | `/kids-spaces` |
 | 5 | Services | Show full capability | 4 cards, one line each, "+" icons | `/services/*` |
 | 6 | Process | Reduce anxiety | 5 steps: Discover→Concept→Design→Build→Handover | `/process` |
-| 7 | Testimonial | Trust | One client quote + attribution | — |
+| 7 | Testimonial | Trust | One client quote + attribution | - |
 | 8 | Final CTA | Convert | "Have a space in mind?" + form CTA + WhatsApp/Call | `/contact`, `wa.me`, `tel:` |
-| — | Footer | Local SEO + contact | NAP (name/address/Ahmedabad), full nav, phone/WhatsApp/email/Instagram | all |
+| - | Footer | Local SEO + contact | NAP (name/address/Ahmedabad), full nav, phone/WhatsApp/email/Instagram | all |
 
-## Copy (from research — drop-in ready)
+## Copy (from research - drop-in ready)
 
 - **H1:** Interiors for homes, kids' spaces, and creative lives.
-- **Hero sub:** Frolik + Co is an Ahmedabad-based interior design studio creating warm, functional, personality-filled spaces — from refined homes and workspaces to joyful rooms designed especially for children.
-- **Kids band:** *Rooms made for little people with big imaginations.* We design kids' spaces that bring together play, study, sleep, storage, safety, and softness — so the room works beautifully today and still feels relevant as the child grows.
+- **Hero sub:** Frolik + Co is an Ahmedabad-based interior design studio creating warm, functional, personality-filled spaces - from refined homes and workspaces to joyful rooms designed especially for children.
+- **Kids band:** *Rooms made for little people with big imaginations.* We design kids' spaces that bring together play, study, sleep, storage, safety, and softness - so the room works beautifully today and still feels relevant as the child grows.
 - **Process band:** *Thoughtful from the first sketch to the final cushion.* Every project begins with how the space will be used.
-- **Final CTA:** *Have a space in mind?* Tell us what you're planning — a home, a child's room, a playroom, a studio, or something completely new.
+- **Final CTA:** *Have a space in mind?* Tell us what you're planning - a home, a child's room, a playroom, a studio, or something completely new.
 
 ## Build / SEO notes
 
 - One `<h1>` (the hero). Section titles are `<h2>`.
 - Hero image `alt`: *"Warm, playful kids' room interior designed by Frolik + Co in Ahmedabad."*
-- Featured-work cards link to real project pages (photos are ready) — lazy-load below the fold.
+- Featured-work cards link to real project pages (photos are ready) - lazy-load below the fold.
 - LocalBusiness schema fed by the footer NAP; add here since Home is a schema host (see `sitemap.md`).
 - Palette: mint `#BAE0DF`, coral `#EF9777`, ivory `#FAF7F2`, text `#2F3433`. Use the "+" motif as a recurring accent (icons, dividers).
 - Add a press/credibility strip between §3 and §4 once coverage exists.

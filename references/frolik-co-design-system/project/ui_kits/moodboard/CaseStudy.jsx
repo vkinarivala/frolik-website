@@ -41,7 +41,7 @@ function CaseStudy() {
             The brief was simple and impossible: a home that felt calm for the parents and endlessly playable for their daughter.
           </p>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: 16, lineHeight: 1.7, color: 'var(--text-body)', margin: 0 }}>
-            We anchored the flat in warm oak and sage, then let colour arrive in the details — a striped reading nook, a split-circle rug, brass that catches the afternoon light. Every low surface is child-height and washable; every high one is for the grown-ups. The result is a space that grows with the family instead of being redecorated out of it.
+            We anchored the flat in warm oak and sage, then let colour arrive in the details - a striped reading nook, a split-circle rug, brass that catches the afternoon light. Every low surface is child-height and washable; every high one is for the grown-ups. The result is a space that grows with the family instead of being redecorated out of it.
           </p>
         </div>
       </div>

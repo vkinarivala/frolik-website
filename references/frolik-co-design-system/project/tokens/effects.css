@@ -9,7 +9,7 @@
   --radius-xl:   28px;
   --radius-pill: 999px;
 
-  /* Borders — the brand leans on a confident 2px ink outline (Memphis) */
+  /* Borders - the brand leans on a confident 2px ink outline (Memphis) */
   --border-hairline: 1px solid var(--border-subtle);
   --border-ink:      2px solid var(--ink-900);
   --border-coral:    2px solid var(--coral-400);
@@ -18,7 +18,7 @@
   --shadow-sm:  0 2px 8px rgba(58, 52, 47, 0.06);
   --shadow-md:  0 8px 24px rgba(58, 52, 47, 0.10);
   --shadow-lg:  0 20px 48px rgba(58, 52, 47, 0.14);
-  /* Playful "hard" offset shadow — a Memphis signature */
+  /* Playful "hard" offset shadow - a Memphis signature */
   --shadow-pop: 6px 6px 0 var(--ink-900);
   --shadow-pop-coral: 6px 6px 0 var(--coral-400);
   --shadow-pop-mint:  6px 6px 0 var(--mint-400);

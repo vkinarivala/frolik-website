@@ -1,4 +1,4 @@
-/* Frolik + Co — shared header & footer, injected on every page.
+/* Frolik + Co - shared header & footer, injected on every page.
    Edit nav/footer once here. Mount points: #site-header / #site-footer. */
 
 (function () {

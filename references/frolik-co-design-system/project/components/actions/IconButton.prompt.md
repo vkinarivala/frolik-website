@@ -1,4 +1,4 @@
-One-line: Circular icon-only button for toolbars, carousels, and social links — always pass an accessible `label`.
+One-line: Circular icon-only button for toolbars, carousels, and social links - always pass an accessible `label`.
 
 ```jsx
 <IconButton label="Next" variant="ink"><ArrowRight /></IconButton>

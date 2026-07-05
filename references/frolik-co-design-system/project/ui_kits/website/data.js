@@ -1,10 +1,10 @@
-// Frolik+Co marketing site — sample content (fictional but on-brand).
+// Frolik+Co marketing site - sample content (fictional but on-brand).
 window.FROLIK_DATA = {
   services: [
-    { icon: 'home', title: 'Residential', blurb: 'Homes that hold your story — from a single playroom to a full renovation.' },
+    { icon: 'home', title: 'Residential', blurb: 'Homes that hold your story - from a single playroom to a full renovation.' },
     { icon: 'briefcase', title: 'Commercial', blurb: 'Cafés, studios and retail that feel unmistakably yours the moment you walk in.' },
     { icon: 'building', title: 'Workspace', blurb: 'Offices designed for focus and warmth, not fluorescent fatigue.' },
-    { icon: 'blocks', title: "Kids' Spaces", blurb: 'Our first love — rooms that grow with the little ones who live in them.' },
+    { icon: 'blocks', title: "Kids' Spaces", blurb: 'Our first love - rooms that grow with the little ones who live in them.' },
   ],
   projects: [
     { title: 'The Playhouse Loft', category: 'Residential', location: 'Ahmedabad', color: 'var(--mint-200)', tag: 'coral', year: '2025' },

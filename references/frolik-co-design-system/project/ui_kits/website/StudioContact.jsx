@@ -5,7 +5,7 @@ function Studio({ onNav }) {
   const values = [
     ['Play first', 'Good design should make you smile before it makes you think.'],
     ['Made to last', 'Warm materials, honest craft, and rooms that age gracefully.'],
-    ['Your story', 'We design around your life — not a magazine spread.'],
+    ['Your story', 'We design around your life - not a magazine spread.'],
   ];
   return (
     <div style={{ maxWidth: 'var(--container-max)', margin: '0 auto', padding: 'clamp(40px,6vw,72px) var(--container-pad) var(--section-y)' }}>
@@ -16,7 +16,7 @@ function Studio({ onNav }) {
             A small studio<br/>with big feelings<br/>about rooms.
           </h1>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: 17, color: 'var(--text-body)', margin: '22px 0 0', lineHeight: 1.65, maxWidth: 460 }}>
-            Frolik+Co started in a spare bedroom in Ahmedabad with a single kids' room commission. Nine years on, we design homes, offices and commercial spaces across Gujarat — but that first delight in a well-made playroom still runs through everything we do.
+            Frolik+Co started in a spare bedroom in Ahmedabad with a single kids' room commission. Nine years on, we design homes, offices and commercial spaces across Gujarat - but that first delight in a well-made playroom still runs through everything we do.
           </p>
           <div style={{ marginTop: 30 }}>
             <Button variant="primary" pop onClick={() => onNav('contact')} iconRight={<I.arrow size={18} />}>Work with us</Button>
@@ -68,7 +68,7 @@ function Contact({ onNav }) {
           {sent ? (
             <div style={{ padding: '40px 8px', textAlign: 'center' }}>
               <Sticker shape="plus" color="mint" size={56} />
-              <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 24, color: 'var(--ink-900)', margin: '18px 0 8px' }}>Thanks — we're on it!</h3>
+              <h3 style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 24, color: 'var(--ink-900)', margin: '18px 0 8px' }}>Thanks - we're on it!</h3>
               <p style={{ fontFamily: 'var(--font-body)', fontSize: 15, color: 'var(--text-body)', margin: 0 }}>We'll be in touch within two working days.</p>
             </div>
           ) : (

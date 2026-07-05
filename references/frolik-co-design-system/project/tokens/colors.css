@@ -3,7 +3,7 @@
    warm neutrals for depth and two playful accents for the kids-space work.
    Base palette first, then semantic aliases. */
 :root {
-  /* Coral — the primary brand accent (the logo's warm salmon) */
+  /* Coral - the primary brand accent (the logo's warm salmon) */
   --coral-100: #FBE7DC;
   --coral-200: #F5CBB4;
   --coral-300: #EFAE8C;
@@ -11,7 +11,7 @@
   --coral-500: #DC744C;
   --coral-600: #C25B36;
 
-  /* Mint — the secondary brand accent (the logo's sage green) */
+  /* Mint - the secondary brand accent (the logo's sage green) */
   --mint-100: #E7F3F0;
   --mint-200: #CDE7E1;
   --mint-300: #AED9CF;   /* brand mint */
@@ -19,7 +19,7 @@
   --mint-500: #63A99A;
   --mint-600: #4A857A;
 
-  /* Warm neutrals — paper, sand, clay, ink */
+  /* Warm neutrals - paper, sand, clay, ink */
   --cream-50:  #FDFAF5;   /* lightest paper */
   --cream-100: #FBF6EF;   /* default page surface */
   --sand-200:  #F1E8DC;   /* subtle raised surface */
@@ -29,7 +29,7 @@
   --ink-800:   #3A342F;   /* body text */
   --ink-900:   #2A2622;   /* headings / near-black warm */
 
-  /* Playful accents — used sparingly, mostly on kids-space work */
+  /* Playful accents - used sparingly, mostly on kids-space work */
   --sun-400:   #F2C14E;   /* sunny yellow */
   --sky-400:   #8FC6E0;   /* sky blue */
 

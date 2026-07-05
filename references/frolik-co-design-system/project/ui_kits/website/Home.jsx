@@ -17,7 +17,7 @@ function Home({ onNav }) {
             </span>.
           </h1>
           <p style={{ fontFamily: 'var(--font-body)', fontSize: 'clamp(1rem,1.4vw,1.2rem)', lineHeight: 1.6, color: 'var(--text-body)', maxWidth: 480, margin: '26px 0 0' }}>
-            We design interiors for how people really live and work — homes, offices and commercial spaces, with a soft spot for the rooms where kids grow up.
+            We design interiors for how people really live and work - homes, offices and commercial spaces, with a soft spot for the rooms where kids grow up.
           </p>
           <div style={{ display: 'flex', gap: 14, marginTop: 34, flexWrap: 'wrap' }}>
             <Button variant="primary" size="lg" pop onClick={() => onNav('contact')} iconRight={<I.arrow size={18} />}>Start a project</Button>
@@ -55,7 +55,7 @@ function Home({ onNav }) {
             <SectionLabel tone="mint">What we do</SectionLabel>
             <h2 style={{ fontFamily: 'var(--font-display)', fontWeight: 700, fontSize: 'clamp(2rem,3.6vw,3rem)', letterSpacing: '-0.02em', color: 'var(--ink-900)', margin: '16px 0 0' }}>One studio, every kind of room.</h2>
           </div>
-          <p style={{ fontFamily: 'var(--font-body)', fontSize: 16, color: 'var(--text-muted)', maxWidth: 320, lineHeight: 1.6 }}>Kids' spaces are our niche — but our range runs from living rooms to boardrooms.</p>
+          <p style={{ fontFamily: 'var(--font-body)', fontSize: 16, color: 'var(--text-muted)', maxWidth: 320, lineHeight: 1.6 }}>Kids' spaces are our niche - but our range runs from living rooms to boardrooms.</p>
         </div>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(4,1fr)', gap: 20 }}>
           {D.services.map((s, i) => {
@@ -106,9 +106,9 @@ function Home({ onNav }) {
         <div style={{ position: 'relative', background: 'var(--mint-200)', border: '2px solid var(--ink-900)', borderRadius: 24, padding: 36, boxShadow: '6px 6px 0 var(--ink-900)' }}>
           <div style={{ position: 'absolute', top: -18, left: 28 }}><Sticker shape="plus" color="coral" size={40} rotate={-10} /></div>
           <p style={{ fontFamily: 'var(--font-display)', fontWeight: 500, fontSize: 'clamp(1.2rem,2vw,1.6rem)', lineHeight: 1.35, letterSpacing: '-0.01em', color: 'var(--ink-900)', margin: 0 }}>
-            "They turned our chaotic three-bedroom into a home that finally makes sense — and our daughter's room is pure magic."
+            "They turned our chaotic three-bedroom into a home that finally makes sense - and our daughter's room is pure magic."
           </p>
-          <div style={{ marginTop: 22, fontFamily: 'var(--font-body)', fontSize: 14, color: 'var(--text-body)', fontWeight: 600 }}>Rhea &amp; Aakash — Residential, Ahmedabad</div>
+          <div style={{ marginTop: 22, fontFamily: 'var(--font-body)', fontSize: 14, color: 'var(--text-body)', fontWeight: 600 }}>Rhea &amp; Aakash - Residential, Ahmedabad</div>
         </div>
       </section>
     </div>

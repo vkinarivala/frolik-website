@@ -1,4 +1,4 @@
-/* Frolik+Co — shared page behaviours.
+/* Frolik+Co - shared page behaviours.
    Every feature is optional: it binds only if its markup exists, so any page
    can load this file. All scroll-coupled effects share ONE rAF loop.
    Load with `defer`, AFTER partials.js (needs the injected .nav). */
@@ -43,7 +43,7 @@
 
   /* ── Media photos ─────────────────────────────────────────────────────
      Each .media-img covers its flat-colour/motif placeholder well. When the
-     .webp is absent the image is hidden and the placeholder shows through —
+     .webp is absent the image is hidden and the placeholder shows through -
      so URLs can be wired ahead of the real files (drop file in → it appears). */
   document.querySelectorAll('img[data-media]').forEach(function (img) {
     function settle(ok) {
@@ -73,7 +73,7 @@
      Markup: a `.filter-bar[data-filter-key="cat"]` holding `.pill[data-value]`
      buttons; grid items carry `data-cat` (or the matching key). Toggles [hidden];
      pre-applies from `?cat=` so filtered category URLs land correctly. No-JS:
-     bar is inert and every card stays visible — work is never hidden behind JS. */
+     bar is inert and every card stays visible - work is never hidden behind JS. */
   var filterBar = document.querySelector('.filter-bar[data-filter-key]');
   if (filterBar) {
     var fkey = filterBar.dataset.filterKey;
@@ -100,7 +100,7 @@
   }
 
   /* ── Contact form: ?type= prefill + graceful submit ───────────────────
-     No backend yet — validate, then swap the form for the success message.
+     No backend yet - validate, then swap the form for the success message.
      (Wire a real endpoint later; markup + copy are launch-ready.) */
   var typeSel = document.getElementById('projectType');
   if (typeSel) {
@@ -130,7 +130,7 @@
   function sizePin() {
     if (!pin || !rail) return;
     if (reduced) {
-      /* no pinning — let the rail scroll natively */
+      /* no pinning - let the rail scroll natively */
       pin.style.height = 'auto';
       var sticky = pin.querySelector('.work-sticky');
       sticky.style.position = 'static';

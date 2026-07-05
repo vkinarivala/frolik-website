@@ -60,7 +60,7 @@ Interiors for homes, kids’ spaces, and creative lives.
 
 Supporting line
 
-Frolik + Co is an Ahmedabad-based interior design studio creating warm, functional, personality-filled spaces — from refined homes and workspaces to joyful rooms designed especially for children.
+Frolik + Co is an Ahmedabad-based interior design studio creating warm, functional, personality-filled spaces - from refined homes and workspaces to joyful rooms designed especially for children.
 
 ⸻
 
@@ -134,7 +134,7 @@ Recommended structure:
     * Keep project cards very clean: project name, type, location.
 4. Signature: Kids spaces
     * “Rooms that grow with the child.”
-    * “Play, study, sleep, storage — planned as one world.”
+    * “Play, study, sleep, storage - planned as one world.”
     * “Soft palettes, safe details, custom furniture, playful forms.”
 5. Services overview
     * Homes
@@ -345,7 +345,7 @@ Recommended structure:
 
 A good About page copy angle:
 
-We believe a room should feel personal before it feels perfect. Every space begins with how people live — how a child plays, how a family gathers, how a creative team works, how light moves through the day.
+We believe a room should feel personal before it feels perfect. Every space begins with how people live - how a child plays, how a family gathers, how a creative team works, how light moves through the day.
 
 ⸻
 
@@ -639,7 +639,7 @@ Add:
 Hero
 
 Interiors for homes, kids’ spaces, and creative lives.
-Frolik + Co is an Ahmedabad-based interior design studio creating warm, functional, personality-filled spaces — from refined homes and workspaces to joyful rooms designed especially for children.
+Frolik + Co is an Ahmedabad-based interior design studio creating warm, functional, personality-filled spaces - from refined homes and workspaces to joyful rooms designed especially for children.
 
 Buttons:
 
@@ -649,7 +649,7 @@ Start a Project
 Kids section
 
 Rooms made for little people with big imaginations.
-We design kids’ spaces that bring together play, study, sleep, storage, safety, and softness — so the room works beautifully today and still feels relevant as the child grows.
+We design kids’ spaces that bring together play, study, sleep, storage, safety, and softness - so the room works beautifully today and still feels relevant as the child grows.
 
 Process section
 
@@ -659,7 +659,7 @@ Every project begins with how the space will be used. We study routines, light, 
 Final CTA
 
 Have a space in mind?
-Tell us what you are planning — a home, a child’s room, a playroom, a studio, or something completely new.
+Tell us what you are planning - a home, a child’s room, a playroom, a studio, or something completely new.
 
 ⸻
 

@@ -1,4 +1,4 @@
-/* Frolik + Co — motion layer.
+/* Frolik + Co - motion layer.
    Lenis smooth scroll + GSAP ScrollTrigger. Gentle, editorial, never hyperactive.
    Everything degrades: no JS → content visible; reduced motion → reveal all, no scrub. */
 
@@ -163,7 +163,7 @@
       scrollTrigger: { trigger: '.process__steps', start: 'top 78%' }
     });
 
-  /* ---------- Final CTA: the door opens — frame expands as you arrive ---------- */
+  /* ---------- Final CTA: the door opens - frame expands as you arrive ---------- */
   gsap.fromTo('.cta__door',
     { scale: 0.92, borderRadius: '48% 48% 32px 32px' },
     {

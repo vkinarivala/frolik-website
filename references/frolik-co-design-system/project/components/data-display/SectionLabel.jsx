@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * Eyebrow / section label — the wide-tracked uppercase kicker used above
+ * Eyebrow / section label - the wide-tracked uppercase kicker used above
  * headings throughout the brand, with a short colored rule.
  */
 export function SectionLabel({ children, tone = 'coral', rule = true, style = {}, ...rest }) {

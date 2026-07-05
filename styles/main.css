@@ -1,5 +1,5 @@
 /* ════════════════════════════════════════════════════════════════════
-   Frolik+Co — shared stylesheet
+   Frolik+Co - shared stylesheet
    Tokens sourced from references/frolik-co-design-system/project/tokens/
    ════════════════════════════════════════════════════════════════════ */
 
@@ -95,10 +95,36 @@ a{color:inherit;text-decoration:none}
 }
 .logo:hover img{transform:translate(-1px,-2px) rotate(-1.5deg);box-shadow:3px 3px 0 var(--coral-400)}
 .nav-links{display:flex;align-items:center;gap:28px;font-size:.9rem;font-weight:500}
-.nav-links a{position:relative;padding:4px 0}
-.nav-links a::after{content:'';position:absolute;left:0;bottom:0;width:0;height:3px;border-radius:2px;background:var(--coral-400);transition:width var(--dur-base) var(--ease-out)}
-.nav-links a:hover::after,.nav-links a.active::after{width:100%}
+.nav-link{position:relative;padding:4px 0;display:inline-flex;align-items:center;gap:6px}
+.nav-link::after{content:'';position:absolute;left:0;bottom:0;width:0;height:3px;border-radius:2px;background:var(--coral-400);transition:width var(--dur-base) var(--ease-out)}
+.nav-link:hover::after,.nav-link.active::after{width:100%}
 .nav .btn{padding:10px 20px;font-size:.9rem}
+
+/* Dropdown menus (desktop only - nav-links hides below 820px) */
+.nav-item{position:relative;display:inline-flex;align-items:center}
+.nav-caret{transition:transform var(--dur-base) var(--ease-out)}
+.nav-item:hover .nav-caret,.nav-item:focus-within .nav-caret{transform:rotate(180deg)}
+.dropdown{
+  position:absolute;top:100%;left:50%;transform:translate(-50%,8px);
+  min-width:230px;margin-top:10px;padding:10px;
+  background:var(--cream-50);border:var(--border-ink);border-radius:var(--radius-md);
+  box-shadow:var(--shadow-pop);
+  display:grid;gap:2px;
+  opacity:0;visibility:hidden;pointer-events:none;
+  transition:opacity var(--dur-base) var(--ease-out),transform var(--dur-base) var(--ease-out),visibility var(--dur-base);
+}
+/* hover bridge so the gap between trigger and panel stays hoverable */
+.dropdown::before{content:'';position:absolute;left:0;right:0;top:-14px;height:14px}
+.nav-item:hover .dropdown,.nav-item:focus-within .dropdown{
+  opacity:1;visibility:visible;pointer-events:auto;transform:translate(-50%,0);
+}
+.dropdown a{
+  display:block;padding:9px 12px;border-radius:var(--radius-sm);
+  font-size:.9rem;font-weight:500;color:var(--ink-800);line-height:1.3;
+  transition:background var(--dur-fast) var(--ease-out),color var(--dur-fast) var(--ease-out);
+}
+.dropdown a:hover,.dropdown a:focus-visible{background:var(--sand-200);color:var(--ink-900)}
+.dropdown a.active{background:var(--coral-100);color:var(--coral-600)}
 @media(max-width:820px){.nav-links{display:none}}
 
 /* ── Hero ───────────────────────────────────────────────────────────── */
@@ -133,7 +159,7 @@ a{color:inherit;text-decoration:none}
 @keyframes fadeUp{to{opacity:1;transform:translateY(0)}}
 .hero-eyebrow{opacity:0;animation:fadeUp .6s var(--ease-out) 0s forwards}
 
-/* Floating motif stickers — parallax layers */
+/* Floating motif stickers - parallax layers */
 .sticker{position:absolute;pointer-events:none;will-change:transform;z-index:-1}
 .hero .sticker svg{opacity:0;animation:popIn .6s var(--ease-bounce) forwards;animation-delay:var(--d,1s)}
 @keyframes popIn{from{opacity:0;transform:scale(.4) rotate(-20deg)}to{opacity:1;transform:scale(1) rotate(0)}}
@@ -207,7 +233,7 @@ a{color:inherit;text-decoration:none}
 .work-card:hover{transform:translate(-2px,-4px);box-shadow:8px 8px 0 var(--coral-400)}
 .work-media{height:clamp(220px,30vh,320px);display:grid;place-items:center;border-bottom:var(--border-ink);position:relative;overflow:hidden}
 
-/* Photo layer — drop a matching .webp into assets/ and it fills the well,
+/* Photo layer - drop a matching .webp into assets/ and it fills the well,
    covering the flat-colour + motif placeholder. Missing file → motif stays. */
 .media-img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;z-index:1;border-radius:inherit}
 .media-img.media-missing{display:none}
@@ -324,11 +350,17 @@ a{color:inherit;text-decoration:none}
 
 /* ── Footer (injected by scripts/partials.js) ───────────────────────── */
 .footer{background:var(--ink-900);color:var(--cream-50);border-top:var(--border-ink);padding:64px 0 32px}
-.footer-grid{display:grid;grid-template-columns:1.4fr 1fr 1fr;gap:40px}
-@media(max-width:760px){.footer-grid{grid-template-columns:1fr}}
+.footer-grid{display:grid;grid-template-columns:1.6fr repeat(4,1fr);gap:40px 32px}
+.footer-grid>div:first-child{grid-column:1/-1}
+@media(min-width:1001px){.footer-grid>div:first-child{grid-column:auto}}
+@media(max-width:1000px){.footer-grid{grid-template-columns:repeat(3,1fr)}}
+@media(max-width:640px){.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:420px){.footer-grid{grid-template-columns:1fr}}
 .footer .logo img{height:80px;border-radius:var(--radius-md)}
 .footer p{color:var(--clay-400);font-size:.9rem;max-width:320px;margin-top:16px}
 .footer h4{font-family:var(--font-display);font-size:.8125rem;letter-spacing:.16em;text-transform:uppercase;color:var(--clay-400);margin-bottom:16px}
+.footer h4 a{transition:color var(--dur-fast) var(--ease-out)}
+.footer h4 a:hover{color:var(--coral-300)}
 .footer ul{list-style:none;display:grid;gap:10px;font-size:.95rem}
 .footer ul a{transition:color var(--dur-fast) var(--ease-out)}
 .footer ul a:hover{color:var(--coral-300)}
@@ -339,7 +371,7 @@ a{color:inherit;text-decoration:none}
 }
 
 /* ════════════════════════════════════════════════════════════════════
-   INTERIOR PAGES — shared components used by every page except the home
+   INTERIOR PAGES - shared components used by every page except the home
    hero. All keep the brand signature: 2px ink outline + hard pop shadow on
    raised surfaces, warm cream paper, coral primary / mint secondary.
    ════════════════════════════════════════════════════════════════════ */
@@ -477,7 +509,7 @@ a{color:inherit;text-decoration:none}
 .swatch span{display:block;margin-top:10px;font-size:.8125rem;font-weight:600;color:var(--ink-900)}
 .swatch small{display:block;color:var(--taupe-500);font-size:.75rem}
 
-/* Mint feature panel — "Designed around", engage cards, etc. */
+/* Mint feature panel - "Designed around", engage cards, etc. */
 .panel{
   position:relative;background:var(--mint-200);border:var(--border-ink);
   border-radius:var(--radius-xl);padding:clamp(28px,4vw,44px);box-shadow:var(--shadow-pop);
@@ -510,7 +542,7 @@ a{color:inherit;text-decoration:none}
 }
 .chip-card svg{flex:none}
 
-/* ── Condensed process step row (teaser — not the drawn timeline) ───── */
+/* ── Condensed process step row (teaser - not the drawn timeline) ───── */
 .step-row{display:flex;flex-wrap:wrap;gap:16px;margin-top:36px}
 .step-chip{
   flex:1 1 160px;background:#fff;border:var(--border-ink);border-radius:var(--radius-md);
@@ -519,7 +551,7 @@ a{color:inherit;text-decoration:none}
 .step-chip b{display:grid;place-items:center;width:36px;height:36px;border-radius:50%;background:var(--ink-900);color:var(--cream-50);font-family:var(--font-display);margin-bottom:12px}
 .step-chip h3{font-size:1rem;font-weight:600}
 
-/* ── FAQ accordion (native details/summary — works with no JS) ──────── */
+/* ── FAQ accordion (native details/summary - works with no JS) ──────── */
 .faq{display:grid;gap:14px;max-width:820px}
 .faq details{border:var(--border-ink);border-radius:var(--radius-md);background:#fff;overflow:hidden}
 .faq summary{
@@ -574,7 +606,7 @@ a.contact-card:hover{transform:translate(-2px,-2px);box-shadow:6px 6px 0 var(--c
   box-shadow:var(--shadow-pop);background:var(--coral-200);display:grid;place-items:center;
 }
 
-/* ── Article (Journal detail) — measured reading column ─────────────── */
+/* ── Article (Journal detail) - measured reading column ─────────────── */
 .article{max-width:70ch;margin:0 auto;padding:0 var(--container-pad)}
 .article-head{text-align:center;max-width:760px;margin:0 auto}
 .article-head h1{font-family:var(--font-display);font-weight:700;letter-spacing:-.02em;line-height:1.06;font-size:clamp(2rem,5vw,3.4rem);margin:16px 0}

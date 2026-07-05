@@ -1,4 +1,4 @@
-One-line: Frolik+Co's pill-shaped action button — use for any primary or secondary CTA; add `pop` for the playful Memphis hard-shadow treatment on hero moments.
+One-line: Frolik+Co's pill-shaped action button - use for any primary or secondary CTA; add `pop` for the playful Memphis hard-shadow treatment on hero moments.
 
 ```jsx
 <Button variant="primary" size="lg" pop>Start a project</Button>

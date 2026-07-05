@@ -1,10 +1,10 @@
 /* ==========================================================================
-   Frolik + Co — main stylesheet
+   Frolik + Co - main stylesheet
    Light, editorial, playful-but-grown-up. Tokens are the source of truth.
    ========================================================================== */
 
 :root {
-  /* Colour — the site stays LIGHT; logo colours are ACCENTS */
+  /* Colour - the site stays LIGHT; logo colours are ACCENTS */
   --frolik-mint: #BAE0DF;
   --frolik-coral: #EF9777;
   --frolik-coral-soft: #DFA08C;
@@ -220,7 +220,7 @@ blockquote { quotes: none; }
 }
 .header__menu-btn .btn__plus { font-size: 1.4rem; }
 
-/* Mobile menu — full-screen ivory overlay */
+/* Mobile menu - full-screen ivory overlay */
 .mobile-menu {
   position: fixed;
   inset: 0;
@@ -518,7 +518,7 @@ html:not(.js) .intro__text .w, html.reduce-motion .intro__text .w { opacity: 1; 
 .project-card:hover .project-card__plus { opacity: 1; transform: scale(1) rotate(45deg); }
 
 /* ==========================================================================
-   Placeholder art plates (.ph) — swap for real photography later.
+   Placeholder art plates (.ph) - swap for real photography later.
    Abstract room compositions built from the logo shape language.
    ========================================================================== */
 .ph { position: relative; overflow: clip; }
@@ -787,7 +787,7 @@ html:not(.js) .process__rule line, html.reduce-motion .process__rule line { stro
 }
 
 /* ==========================================================================
-   8 · Final CTA — the open door
+   8 · Final CTA - the open door
    ========================================================================== */
 .cta { padding-block: 0 var(--section-y); }
 
@@ -865,7 +865,7 @@ html:not(.js) .process__rule line, html.reduce-motion .process__rule line { stro
 .footer__contacts a:hover { color: var(--frolik-coral-deep); }
 
 /* ==========================================================================
-   Scroll reveals — hidden ONLY when JS is on and motion is allowed
+   Scroll reveals - hidden ONLY when JS is on and motion is allowed
    ========================================================================== */
 html.js:not(.reduce-motion) .reveal,
 html.js:not(.reduce-motion) .reveal-card,

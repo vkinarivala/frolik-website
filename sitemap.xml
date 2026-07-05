@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-  Frolik + Co — https://frolik.co.in
+  Frolik + Co - https://frolik.co.in
   URLs use the .html form to match each page's <link rel="canonical"> and the
   site's internal links (the site is served as flat .html files).
   Update <lastmod> when a page's content changes.

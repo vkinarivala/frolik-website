@@ -1,12 +1,12 @@
-# Frolik + Co — SEO Sitemap & Information Architecture
+# Frolik + Co - SEO Sitemap & Information Architecture
 
 **Domain:** https://frolik.co.in
-**Studio:** Ahmedabad interior design studio — homes, kids' spaces, workspaces, commercial.
+**Studio:** Ahmedabad interior design studio - homes, kids' spaces, workspaces, commercial.
 **Positioning:** *Playful interiors, thoughtfully grown up.* Kids'-spaces is the signature SEO strength; full-home & commercial capability is shown alongside.
 
 **Legend**
-- 🟢 **MVP** — build for launch (Phase 1)
-- 🔵 **Phase 2** — SEO landing pages, add once photos/content exist
+- 🟢 **MVP** - build for launch (Phase 1)
+- 🔵 **Phase 2** - SEO landing pages, add once photos/content exist
 - **P** = XML priority · **CF** = changefreq
 
 ---
@@ -47,18 +47,18 @@
 
 | Page | Slug | Title tag | Meta description | H1 | Primary keyword | P / CF |
 |---|---|---|---|---|---|---|
-| Home 🟢 | `/` | Frolik + Co \| Interior Designer in Ahmedabad for Homes & Kids Spaces | Ahmedabad interior design studio creating warm, functional spaces — refined homes, workspaces, and joyful rooms designed for children. | Interiors for homes, kids' spaces, and creative lives. | interior designer in Ahmedabad | 1.0 / weekly |
-| Work 🟢 | `/work` | Interior Design Portfolio Ahmedabad \| Frolik + Co | Explore Frolik + Co's interior design projects across Ahmedabad — kids' rooms, homes, studios, and commercial spaces. | Selected work | interior design portfolio Ahmedabad | 0.9 / weekly |
-| Kids Spaces 🟢 | `/kids-spaces` | Kids Room Interior Designer in Ahmedabad \| Frolik + Co | Kids' room, playroom, study and shared-room interior design in Ahmedabad — designed for imagination, safety, storage, and calm. | Kids room and playroom interior design in Ahmedabad | kids room interior designer Ahmedabad | 0.9 / weekly |
-| Services 🟢 | `/services` | Interior Design Services in Ahmedabad \| Frolik + Co | Residential, kids' spaces, workspace, and commercial interior design — from consultation to turnkey execution. | What we design | interior design services Ahmedabad | 0.8 / monthly |
-| Process 🟢 | `/process` | Our Interior Design Process \| Frolik + Co | Discovery to handover — how Frolik + Co plans, designs, builds, and styles every space. | Thoughtful from the first sketch to the final cushion | interior design process | 0.6 / monthly |
+| Home 🟢 | `/` | Frolik + Co \| Interior Designer in Ahmedabad for Homes & Kids Spaces | Ahmedabad interior design studio creating warm, functional spaces - refined homes, workspaces, and joyful rooms designed for children. | Interiors for homes, kids' spaces, and creative lives. | interior designer in Ahmedabad | 1.0 / weekly |
+| Work 🟢 | `/work` | Interior Design Portfolio Ahmedabad \| Frolik + Co | Explore Frolik + Co's interior design projects across Ahmedabad - kids' rooms, homes, studios, and commercial spaces. | Selected work | interior design portfolio Ahmedabad | 0.9 / weekly |
+| Kids Spaces 🟢 | `/kids-spaces` | Kids Room Interior Designer in Ahmedabad \| Frolik + Co | Kids' room, playroom, study and shared-room interior design in Ahmedabad - designed for imagination, safety, storage, and calm. | Kids room and playroom interior design in Ahmedabad | kids room interior designer Ahmedabad | 0.9 / weekly |
+| Services 🟢 | `/services` | Interior Design Services in Ahmedabad \| Frolik + Co | Residential, kids' spaces, workspace, and commercial interior design - from consultation to turnkey execution. | What we design | interior design services Ahmedabad | 0.8 / monthly |
+| Process 🟢 | `/process` | Our Interior Design Process \| Frolik + Co | Discovery to handover - how Frolik + Co plans, designs, builds, and styles every space. | Thoughtful from the first sketch to the final cushion | interior design process | 0.6 / monthly |
 | About 🟢 | `/about` | About Frolik + Co \| Ahmedabad Interior Design Studio | Meet the founder-led Ahmedabad studio behind warm, playful, highly functional interiors for homes and children. | A room should feel personal before it feels perfect. | Ahmedabad interior design studio | 0.7 / monthly |
 | Journal 🟢 | `/journal` | Interior Design Journal \| Frolik + Co Ahmedabad | Guides and stories on kids' rooms, Ahmedabad homes, colour, storage, and life behind our projects. | Journal | interior design blog Ahmedabad | 0.6 / weekly |
 | Contact 🟢 | `/contact` | Start an Interior Design Project in Ahmedabad \| Frolik + Co | Tell us about your home, kids' room, studio, or commercial space and book a discovery call with Frolik + Co. | Have a space in mind? | interior designer Ahmedabad contact | 0.8 / monthly |
 
 ---
 
-## Kids Spaces — SEO landing pages (Phase 2)
+## Kids Spaces - SEO landing pages (Phase 2)
 
 Each targets a specific "{type} design Ahmedabad" query. Give each a unique H1, 400–800 words, 2–3 project examples, and an FAQ block (FAQ schema).
 
@@ -71,7 +71,7 @@ Each targets a specific "{type} design Ahmedabad" query. Give each a unique H1, 
 
 ---
 
-## Services — detail pages (Phase 2)
+## Services - detail pages (Phase 2)
 
 | Page | Slug | Title tag | Primary keyword | P |
 |---|---|---|---|---|
@@ -84,12 +84,12 @@ Each targets a specific "{type} design Ahmedabad" query. Give each a unique H1, 
 
 ---
 
-## Work — portfolio filters & project pages
+## Work - portfolio filters & project pages
 
 **Filtered category views** (share the `/work` hub content, filter on load):
 `/work/kids-spaces` · `/work/homes` · `/work/workspaces-studios` · `/work/commercial-retail` · `/work/styling-details`
 
-**Individual project pages** — `/work/{project-slug}`. Launch with the 6 documented projects; each uses the consistent project template (brief → challenge → design response → key moves → palette → zoning → custom details → gallery → testimonial → related → CTA). Kids projects add the "Designed around" block (age, activities, safety, grow-with-child, sensory mood).
+**Individual project pages** - `/work/{project-slug}`. Launch with the 6 documented projects; each uses the consistent project template (brief → challenge → design response → key moves → palette → zoning → custom details → gallery → testimonial → related → CTA). Kids projects add the "Designed around" block (age, activities, safety, grow-with-child, sensory mood).
 
 | Project | Slug | Type | P |
 |---|---|---|---|
@@ -100,11 +100,11 @@ Each targets a specific "{type} design Ahmedabad" query. Give each a unique H1, 
 | Project 5 🟢 | `/work/{slug}` | Home / Studio | 0.7 |
 | Project 6 🟢 | `/work/{slug}` | Commercial | 0.7 |
 
-**Title-tag pattern:** `{Project Name} — {Space Type} in Ahmedabad | Frolik + Co`
+**Title-tag pattern:** `{Project Name} - {Space Type} in Ahmedabad | Frolik + Co`
 
 ---
 
-## Journal — launch articles & pipeline
+## Journal - launch articles & pipeline
 
 Launch with 3, expand to 12. **Title pattern:** `{Article Title} | Frolik + Co`. Priority 0.6, changefreq monthly.
 
@@ -127,7 +127,7 @@ Launch with 3, expand to 12. **Title pattern:** `{Article Title} | Frolik + Co`.
 
 ## Technical SEO checklist
 
-- [ ] `sitemap.xml` at root (generated — see file); reference it in `robots.txt` via `Sitemap: https://frolik.co.in/sitemap.xml`.
+- [ ] `sitemap.xml` at root (generated - see file); reference it in `robots.txt` via `Sitemap: https://frolik.co.in/sitemap.xml`.
 - [ ] `robots.txt` allowing all, disallowing any `/thank-you` / form-success pages.
 - [ ] **LocalBusiness** schema on Home & Contact (name, address, Ahmedabad service area, phone, geo, opening hours, sameAs → Instagram/Google Business Profile).
 - [ ] **FAQPage** schema on `/kids-spaces` and each kids landing page.

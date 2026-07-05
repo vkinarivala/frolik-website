@@ -1,30 +1,30 @@
-# Frolik + Co — Journal article wireframe (TEMPLATE)
+# Frolik + Co - Journal article wireframe (TEMPLATE)
 
 Sitemap: `/journal/{article-slug}` 🟢 (P 0.6). One readable long-form template for all
 articles (3 at launch → 12). Optimised for reading + SEO; the design system stays quiet
-so the prose leads — but header, footer, motifs and CTA keep it on-brand.
+so the prose leads - but header, footer, motifs and CTA keep it on-brand.
 
 **Title pattern:** `{Article Title} | Frolik + Co`
 **Structured data:** `BreadcrumbList` (Home › Journal › {Article}) + `Article` JSON-LD
 (headline, author, datePublished, image). Canonical to self.
 
 **Launch instances (sitemap):**
-1. How to design a kids room that grows with your child — `kids-room-that-grows-with-your-child`
-2. Kids room interior design in Ahmedabad: cost, timeline & planning — `kids-room-interior-design-ahmedabad-cost-timeline`
-3. Inside a Frolik + Co project: from brief to handover — `inside-a-frolik-project-brief-to-handover`
+1. How to design a kids room that grows with your child - `kids-room-that-grows-with-your-child`
+2. Kids room interior design in Ahmedabad: cost, timeline & planning - `kids-room-interior-design-ahmedabad-cost-timeline`
+3. Inside a Frolik + Co project: from brief to handover - `inside-a-frolik-project-brief-to-handover`
 
 ---
 
 ## Section order
 ```
 0. Header
-1. Article header — category, title, meta (date · read-time · author)
-2. Hero image — full-bleed media well
-3. Article body — measured single column of real HTML prose
-4. Inline CTA / lead-magnet — mid-article (optional)
-5. Author / studio note — mini bio card
-6. Related reading — 3 article cards
-7. CTA — start a project
+1. Article header - category, title, meta (date · read-time · author)
+2. Hero image - full-bleed media well
+3. Article body - measured single column of real HTML prose
+4. Inline CTA / lead-magnet - mid-article (optional)
+5. Author / studio note - mini bio card
+6. Related reading - 3 article cards
+7. CTA - start a project
 8. Footer
 ```
 
@@ -48,7 +48,7 @@ so the prose leads — but header, footer, motifs and CTA keep it on-brand.
 
 ## 4. Inline CTA / lead-magnet (optional, research §11)
 - Mid-article outlined card: e.g. **Kids Room Planning Checklist** download, or a soft
-  link to `/kids-spaces`. One only — don't clutter the read.
+  link to `/kids-spaces`. One only - don't clutter the read.
 
 ## 5. Author / studio note
 - Sand band. Small ink-outlined card: studio logo card + one-line studio bio + link to
@@ -59,7 +59,7 @@ so the prose leads — but header, footer, motifs and CTA keep it on-brand.
   the same pillar where possible.
 
 ## 7. CTA
-- Reuse home CTA. Context-matched — a kids article → **Thinking about your child's
+- Reuse home CTA. Context-matched - a kids article → **Thinking about your child's
   room?** → contact.html?type=kids; general → `Start a project`.
 
 ---
@@ -68,8 +68,8 @@ so the prose leads — but header, footer, motifs and CTA keep it on-brand.
 Deliberately restrained (reading page): hero static/parallax-light, `.reveal` on body
 blocks, `.reveal-pop` on related cards. Reduced motion: everything instant.
 
-## Image assets (WebP — see `assets/IMAGES.md`)
-- Hero cover: `journal-{slug}.webp` — **reuses** the hub card image.
+## Image assets (WebP - see `assets/IMAGES.md`)
+- Hero cover: `journal-{slug}.webp` - **reuses** the hub card image.
 - In-article images (optional): `journal-{slug}-01.webp`, `-02.webp`, …
 - Related-reading cards: **reuse** other `journal-{slug}.webp` covers.
 - Social: OG = the article's own `journal-{slug}.webp` (or `og-journal.webp`).

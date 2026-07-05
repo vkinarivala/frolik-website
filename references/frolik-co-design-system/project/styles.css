@@ -1,4 +1,4 @@
-/* Frolik+Co Design System — global entry point.
+/* Frolik+Co Design System - global entry point.
    Consumers link this one file. Import order only; no rules here. */
 @import url('./tokens/fonts.css');
 @import url('./tokens/colors.css');

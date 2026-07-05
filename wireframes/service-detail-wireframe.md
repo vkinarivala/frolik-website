@@ -1,8 +1,8 @@
-# Frolik + Co — Service detail wireframe (TEMPLATE, Phase 2)
+# Frolik + Co - Service detail wireframe (TEMPLATE, Phase 2)
 
 Sitemap: `/services/{slug}` 🔵 (P 0.6–0.8). One template for all six service detail
 pages. A focused, SEO-targeted page per service that still leans on the portfolio for
-proof (research §5 — don't overload with text; let work carry weight).
+proof (research §5 - don't overload with text; let work carry weight).
 
 **Instances (sitemap):**
 | Slug | `<title>` | Primary keyword |
@@ -22,12 +22,12 @@ proof (research §5 — don't overload with text; let work carry weight).
 ## Section order
 ```
 0. Header (nav "Services" .active)
-1. Hero — service-specific, keyword H1
-2. What's included — scoped deliverables list
-3. How it works — this service's slice of the process
-4. Related work — 2–3 WorkCards of this service type
-5. FAQ (optional) — 3–4 questions, FAQ schema if present
-6. Related services — cross-links
+1. Hero - service-specific, keyword H1
+2. What's included - scoped deliverables list
+3. How it works - this service's slice of the process
+4. Related work - 2–3 WorkCards of this service type
+5. FAQ (optional) - 3–4 questions, FAQ schema if present
+6. Related services - cross-links
 7. CTA
 8. Footer
 ```
@@ -42,7 +42,7 @@ proof (research §5 — don't overload with text; let work carry weight).
 
 ## 2. What's included (research §5 Process "what you receive", scoped per service)
 - Sand band. Eyebrow *What's included*, H2 **What you get.** Motif-bullet checklist,
-  scoped to the service — e.g.:
+  scoped to the service - e.g.:
   - Residential → space plan · mood board · material palette · furniture drawings ·
     lighting plan · 3D direction · budget estimate · execution plan.
   - Design consultation → layout, colour, furniture and material guidance (design-only,
@@ -54,10 +54,10 @@ proof (research §5 — don't overload with text; let work carry weight).
 
 ## 3. How it works (this service's slice)
 - Cream. The relevant steps of the studio process (subset of the five) as a compact
-  numbered row — links out to `/process` for the full timeline, doesn't reproduce the
+  numbered row - links out to `/process` for the full timeline, doesn't reproduce the
   scroll-drawn line.
 
-## 4. Related work (research §5 — proof)
+## 4. Related work (research §5 - proof)
 - Sand band. 2–3 WorkCards of this service type (real where available, else
   PLACEHOLDER), end card → filtered `/work/{category}`.
 
@@ -78,7 +78,7 @@ proof (research §5 — don't overload with text; let work carry weight).
 Same as the Services overview: hero `.reveal` + sticker parallax, `.reveal` lists,
 `.reveal-pop` work cards, optional accordion. Reduced motion identical.
 
-## Image assets (WebP — see `assets/IMAGES.md`)
+## Image assets (WebP - see `assets/IMAGES.md`)
 - Hero (one per service, new): `service-residential-interiors-hero.webp` ·
   `service-kids-spaces-hero.webp` (may reuse `kids-hero.webp`) ·
   `service-commercial-studio-interiors-hero.webp` ·

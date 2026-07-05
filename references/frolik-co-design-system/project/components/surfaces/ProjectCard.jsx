@@ -2,7 +2,7 @@ import React from 'react';
 import { Tag } from '../data-display/Tag.jsx';
 
 /**
- * Portfolio project card — image on top, meta below. Lifts on hover.
+ * Portfolio project card - image on top, meta below. Lifts on hover.
  * Pass an <img>/element as `media`, or a solid `mediaColor` placeholder.
  */
 export function ProjectCard({ title, category, location, media = null, mediaColor = 'var(--mint-200)', style = {}, ...rest }) {

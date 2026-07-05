@@ -1,7 +1,7 @@
 import React from 'react';
 
 /**
- * Sticker — a decorative Memphis shape motif pulled straight from the logo
+ * Sticker - a decorative Memphis shape motif pulled straight from the logo
  * (striped circle, coral slash, split circle, plus). Purely decorative;
  * scatter behind or beside content for the brand's playful energy.
  */
