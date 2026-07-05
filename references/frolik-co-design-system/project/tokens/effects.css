@@ -1,0 +1,32 @@
+/* ── Frolik+Co radii, borders, shadows, motion ───────────────────────
+   The brand mixes hard-edged Memphis geometry with a few soft, friendly
+   radii. Shadows are warm-tinted and soft, never hard grey. */
+:root {
+  /* Radii */
+  --radius-sm:   6px;
+  --radius-md:   12px;
+  --radius-lg:   20px;
+  --radius-xl:   28px;
+  --radius-pill: 999px;
+
+  /* Borders — the brand leans on a confident 2px ink outline (Memphis) */
+  --border-hairline: 1px solid var(--border-subtle);
+  --border-ink:      2px solid var(--ink-900);
+  --border-coral:    2px solid var(--coral-400);
+
+  /* Warm soft shadows */
+  --shadow-sm:  0 2px 8px rgba(58, 52, 47, 0.06);
+  --shadow-md:  0 8px 24px rgba(58, 52, 47, 0.10);
+  --shadow-lg:  0 20px 48px rgba(58, 52, 47, 0.14);
+  /* Playful "hard" offset shadow — a Memphis signature */
+  --shadow-pop: 6px 6px 0 var(--ink-900);
+  --shadow-pop-coral: 6px 6px 0 var(--coral-400);
+  --shadow-pop-mint:  6px 6px 0 var(--mint-400);
+
+  /* Motion */
+  --ease-out:    cubic-bezier(0.22, 1, 0.36, 1); /* @kind other */
+  --ease-bounce: cubic-bezier(0.34, 1.56, 0.64, 1); /* @kind other */
+  --dur-fast:    140ms; /* @kind other */
+  --dur-base:    240ms; /* @kind other */
+  --dur-slow:    420ms; /* @kind other */
+}

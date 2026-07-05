@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /thank-you
+Disallow: /*?*utm_
+
+Sitemap: https://frolik.co.in/sitemap.xml

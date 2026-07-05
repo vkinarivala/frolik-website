@@ -1,0 +1,51 @@
+<!-- @dsCard group="Portfolio & Mood Boards" viewport="1200x820" name="Mood board & case study" subtitle="Client-facing project layouts — toggle views" -->
+<!-- @startingPoint section="Portfolio & Mood Boards" subtitle="Client mood board + portfolio case study" viewport="1200x820" -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Frolik+Co — Project Layouts</title>
+<link rel="stylesheet" href="../../styles.css" />
+<style>
+  * { box-sizing: border-box; }
+  html, body { margin: 0; }
+  body { background: var(--cream-100); color: var(--text-body); font-family: var(--font-body); }
+</style>
+<script src="https://unpkg.com/react@18.3.1/umd/react.development.js" integrity="sha384-hD6/rw4ppMLGNu3tX5cjIb+uRZ7UkRJ6BPkLpg4hAu/6onKUg4lLsHAs9EBPT82L" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/react-dom@18.3.1/umd/react-dom.development.js" integrity="sha384-u6aeetuaXnQ38mYT8rp6sbXaQe3NL9t+IBXmnYxwkUI2Hw4bsp2Wvmx4yRQF1uAm" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/@babel/standalone@7.29.0/babel.min.js" integrity="sha384-m08KidiNqLdpJqLq95G/LEi8Qvjl/xUYll3QILypMoQ65QorJ9Lvtp2RXYGBFj1y" crossorigin="anonymous"></script>
+<script src="../../_ds_bundle.js"></script>
+<script src="../website/Icons.jsx" type="text/babel"></script>
+<script src="MoodBoard.jsx" type="text/babel"></script>
+<script src="CaseStudy.jsx" type="text/babel"></script>
+</head>
+<body>
+<div id="root"></div>
+<script type="text/babel" data-presets="react">
+  const { useState } = React;
+  function App() {
+    const [view, setView] = useState('mood');
+    const Btn = ({ id, label }) => (
+      <button onClick={() => setView(id)} style={{
+        fontFamily: 'var(--font-display)', fontWeight: 600, fontSize: 14, cursor: 'pointer',
+        padding: '9px 18px', borderRadius: 999, border: '2px solid var(--ink-900)',
+        background: view === id ? 'var(--ink-900)' : 'transparent',
+        color: view === id ? 'var(--cream-50)' : 'var(--ink-900)',
+      }}>{label}</button>
+    );
+    const Screen = view === 'mood' ? window.FKMoodBoard : window.FKCaseStudy;
+    return (
+      <div>
+        <div style={{ position: 'sticky', top: 0, zIndex: 10, display: 'flex', gap: 10, justifyContent: 'center', padding: '16px', background: 'rgba(251,246,239,0.85)', backdropFilter: 'blur(8px)', borderBottom: '1px solid var(--border-subtle)' }}>
+          <Btn id="mood" label="Mood board" />
+          <Btn id="case" label="Case study" />
+        </div>
+        <Screen />
+      </div>
+    );
+  }
+  ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+</script>
+</body>
+</html>
